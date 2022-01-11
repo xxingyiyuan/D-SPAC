@@ -4,7 +4,7 @@ beijingRange = ('./data/dataset/Beijing.txt', (116.3300873, 39.8463525),
 guangzhouRange = ('./data/dataset/Guangzhou.txt', (113.222425, 23.097940),
                   (11, 11), (0.01008667, 0.01008667))
 
-newyorkRange = ('./data/dataset/NewYork1.txt', (-74.018184, 40.700422),
+newyorkRange = ('./data/dataset/NewYork.txt', (-74.018184, 40.700422),
                 (11, 11), (0.0092977, 0.0098435))
 RADIUS = 5
 # SPEED

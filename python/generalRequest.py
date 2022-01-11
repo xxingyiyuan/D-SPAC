@@ -22,8 +22,6 @@ class Generator:
 
         df = pd.read_table(filepath, sep=',', header=None, names=[
                            'pickup_longitude', 'pickup_latitude', 'dropoff_longitude', 'dropoff_latitude'])
-        # manhattan
-        # df = pd.read_table(filepath, sep=' ')
         # get data in range
         df = df[(df['pickup_longitude'] > self.minX) &
                 (df['pickup_longitude'] < self.maxX)]

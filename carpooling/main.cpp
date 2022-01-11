@@ -464,82 +464,6 @@ void outputData(int select)
           << endl;
     oFile << endl;
 
-    oFile << "number of winning drivers"
-          << "\t"
-          << res1[0][14]
-          << "\t"
-          << res1[1][14]
-          << "\t"
-          << res1[2][14]
-          << "\t"
-          << res1[3][14]
-          << "\t"
-          << res1[4][14]
-          << endl;
-    oFile << " "
-          << "\t"
-          << res2[0][14]
-          << "\t"
-          << res2[1][14]
-          << "\t"
-          << res2[2][14]
-          << "\t"
-          << res2[3][14]
-          << "\t"
-          << res2[4][14]
-          << endl;
-    oFile << " "
-          << "\t"
-          << res3[0][14]
-          << "\t"
-          << res3[1][14]
-          << "\t"
-          << res3[2][14]
-          << "\t"
-          << res3[3][14]
-          << "\t"
-          << res3[4][14]
-          << endl;
-    oFile << endl;
-
-    oFile << "fare saving rate"
-          << "\t"
-          << res1[0][1] / res1[0][4]
-          << "\t"
-          << res1[1][1] / res1[1][4]
-          << "\t"
-          << res1[2][1] / res1[2][4]
-          << "\t"
-          << res1[3][1] / res1[3][4]
-          << "\t"
-          << res1[4][1] / res1[4][4]
-          << endl;
-     oFile << " "
-          << "\t"
-          << res2[0][1] / res2[0][4]
-          << "\t"
-          << res2[1][1] / res2[1][4]
-          << "\t"
-          << res2[2][1] / res2[2][4]
-          << "\t"
-          << res2[3][1] / res2[3][4]
-          << "\t"
-          << res2[4][1] / res2[4][4]
-          << endl;
-    oFile << " "
-          << "\t"
-          << res3[0][1] / res3[0][4]
-          << "\t"
-          << res3[1][1] / res3[1][4]
-          << "\t"
-          << res3[2][1] / res3[2][4]
-          << "\t"
-          << res3[3][1] / res3[3][4]
-          << "\t"
-          << res3[4][1] / res3[4][4]
-          << endl;
-    oFile << endl;
-
     oFile.close();
 }
 
@@ -547,7 +471,6 @@ void outputData(int select)
 int main()
 {
     cout << "start.." << endl;
-    outputData(0);
     outputData(1);
     system("pause");
     return 0;
